@@ -1,0 +1,92 @@
+.main {
+    width: 650px;
+    border: 1px solid lightgray;
+    border-radius: 0.5%;
+    margin: 20px auto;
+    padding: 0 0 30px 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+#banner {
+    background-color: #eee;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    border: 1px solid #ddd;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#search input{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 20px;
+}
+
+li:hover{
+    border-color: #9361bf;
+}
+
+.delete {
+    float: right;
+    background-color: #9361bf;
+    border:1px solid black;
+    border-radius: 6%;
+    margin: 5px;
+    padding: 6px;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+
+.hide{
+    line-height: 52px;
+    padding: 10px 10px;
+    margin-left: 25px;
+}
+
+button {
+    background-color: #9361bf;
+    color: cornsilk;
+    cursor: pointer;
+    border: 1px solid #9361bf;
+    height: 30px;
+    width: auto;
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+.add input{
+    max-width: 300px;
+    margin-left: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+}

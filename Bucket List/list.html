@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="./list.css" type="text/css" rel="stylesheet">
+        <title>Leggo</title>
+    </head>
+    <body class="main">
+        <div id="banner">
+            <header>
+                <h1>Funventure</h1>
+                <p>My Super Bucket List</p>
+            </header>
+            <form id="search">
+                <input type="text" placeholder="Fun things to do...">
+            </form>
+        </div>
+        <div id="to-do">
+            <h2>Crazy, Fun Things to do</h2>
+            <ul>
+                <li>
+                    <span class="name">Go bungee jumping</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Go on a safari</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Visit a remote island</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Go on a baecation</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Go vegetarian for one month</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <form id="add-list">
+                <div class="hide">
+                    <input type="checkbox" id="hide">
+                    <label for="hide">Hide bucket list</label>
+                </div>
+                <div class="add">
+                    <input type="text" placeholder="Add to list">
+                    <button>Add</button>
+                </div>
+            </form>
+        </div>
+        <script src="list.js"></script>
+    </body>
+</html>
